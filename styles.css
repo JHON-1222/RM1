@@ -1,0 +1,111 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+    color: #333;
+    margin: 0;
+}
+
+/* Estilo del encabezado */
+.header {
+    background-color: #013B7E; /* Azul Real Madrid */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo de la sección "Historia" */
+.about {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-logo {
+    width: 150px;
+    margin: 20px 0;
+}
+
+/* Estilo de la sección "Jugadores" */
+.players {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #e8eaf6; /* Color azul claro */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.player {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.player-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Hace las imágenes circulares */
+}
+
+/* Estilo de la sección "Estadio" */
+.stadium {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.stadium-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Estilo de la sección "Trofeos" */
+.trophies {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #e8eaf6; /* Color azul claro */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.trophy {
+    display: inline-block;
+    margin: 10px;
+}
+
+.trophy-image {
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilo de la sección "Logros" */
+.achievements {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo del pie de página */
+.footer {
+    background-color: #013B7E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
